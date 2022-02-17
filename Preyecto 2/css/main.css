@@ -1,0 +1,66 @@
+* {
+    font-size: 1em;
+}
+/*se especifica el tamño de fuente global*/
+/**/
+
+.pos {
+    width: 100%;
+    height: auto;
+    visibility: visible;
+}
+/*dimesiones del video y visibilidad de la entrada "index"*/
+
+ul,li {
+    justify-content: center;
+    padding-left: 5em;
+}
+
+/*centrando contenido y espeficiando la distancia entre uno elemento y otro de la lista del menu*/
+
+.donaciones {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    border: 1px #9494e6 solid;
+}
+/* aliniacion y centrado del contenido y texto asi como agregar un borde de 1px de color*/
+
+.linea {
+    text-decoration: none !important;
+}
+
+/*desactivacion de lineas o subrayado de hipervinculos de la entrada "index"*/
+
+.dato {   
+    padding-left: 6em;
+}
+/*Espaciado de elementos*/
+
+.banner {
+
+    background-image: url(../Imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*imagen de fondo del div contenedor - fondo de banner de donativos*/
+
+
+.colabora{
+    background-image: url(../Imagenes/perros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+/*imagen de fondo del div contenedor - fondo de cabecera de colabora y donaciones*/
+
+
+.formulario{
+ font-size: 5em;
+}
+/*Aumento de tamaño de fuente para el titulo cabecera de colabora y donaciones*/
+
+.imagen {   
+    padding: 0;   
+}
+/*se quita el padding de la imagen "nocompres" de la entrada "ayudar" y "reto" para ajustar al tamaño del marco */
